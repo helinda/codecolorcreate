@@ -1,0 +1,481 @@
+/* Utility Stylesheets */
+
+* {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-scaled {
+    width: 100%;
+}
+
+.img-scaled-wh {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    size: 14px;
+}*/
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	color: #6a6471;
+    height: 100%;
+    cursor: default;
+}
+
+.list-heading {
+    font-family: "Nixie One", Georgia, serif;
+    size: 20px;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+   
+#content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -150px;
+    height: 300px;
+}
+
+#grey-background {
+    display: none;
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #cdcbd0;
+    /*top: 50%;
+    margin-top: -25px;*/
+    height: 50px;
+}
+
+/*landing page*/
+#landing-container {
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -o-transition: color 0.4s ease-out;
+}
+
+#landing-container:hover {
+    color: #61487f;
+}
+
+#landing-content{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    width: 95px;
+    font-family: "Nixie One"; serif;
+    font-size: 35px;
+    font-weight: lighter;
+    color: inherit;
+    display: none;
+}
+/*end landing page*/
+
+/*main page*/
+#main-container {
+    display: none;
+    height: 250px;
+}
+
+#main-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#main-about {
+    display:none;
+    padding-left: 40px;
+    padding-right:70px;
+}
+
+#main-about-img {
+    background-color: white;
+}
+
+#main-about-text {
+    padding-left: 27px;
+}
+
+#main-port {
+    display: none;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#main-port-img {
+    background-color: white;
+}
+
+#main-port-text {
+    padding-left: 5px;
+}
+
+#main-resume {
+    display: none;
+    padding-left: 60px;
+}
+
+#main-resume-img {
+    background-color: white;
+}
+
+#main-resume-text {
+    padding-left: 12px;
+}
+
+.main-entry {
+    background-color: #cdcbd0;
+    float: left;
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 30px;
+}
+
+#main-about-link {
+    cursor: pointer;
+}
+
+#main-port-link {
+    cursor: pointer;
+}
+   
+#main-resume-link {
+    cursor: pointer;
+}
+
+#mainpagenav-container {
+    display: none;
+    margin-top:220px;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+#mainpagenav {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#mainpagenav-text {
+    margin-left: 94%;
+    color: #ece9f1;
+    transition: all 0.3s ease-out;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    cursor: pointer;
+}
+
+#mainpagenav-text:hover{
+    color: white;
+}
+
+/*end main page*/
+
+/*begin about page*/
+#about-container {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+#about-header {
+    display: none;
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 45px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 230px;
+    color: #966363;
+    z-index: 1;
+}
+
+#about-content {
+    width: 100%;
+    height: 250px;
+}
+
+#about-img {
+    position: absolute;
+    display: none;
+    margin-top: -60px;
+    margin-left: 210px;
+    z-index: 1;
+}
+
+#about-text {
+    position: absolute;
+    margin-left: 485px;
+    margin-top: 40px;
+    z-index: 1;
+    padding-right: 20px;
+}
+
+#about-tagline {
+    display: none;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    color: #966363;
+}
+
+#about-info {
+    display: none;
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 17.5px;
+    font-weight: 100;
+    margin-top: 20px;
+    letter-spacing: 0.4;
+    line-height: 1.25;
+}
+
+#about-blurb {
+    display: none;
+    padding-top: 10px;
+}
+
+#about-blurb-contact {
+    display: none;
+    padding-top: 10px;
+}
+
+.nav-container {
+    display: none;
+    position: absolute;
+    width: 300px;
+    margin-left: 68%;
+    margin-top: 10px;
+    font-weight: lighter;
+    z-index:100;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*end about page */
+
+
+/* being resume page */
+
+#resume-container {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+#resume-header {
+    display: none;
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 45px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 190px;
+    /*color: #406f48;*/
+    color: #475ca8;
+    z-index: 1;
+}
+
+#resume-download { 
+    display: none;
+    margin-left: 385px;
+    margin-top: 257.5px;
+    position: absolute;
+    font-weight: lighter;
+}
+
+#resume-info {
+    position: absolute;
+    width: 1024px;
+    margin-top: 30px;
+}
+
+#resume-entry {
+    display: none;
+    margin-left: -8px;
+    float: left;
+    margin-right: 10px;
+}
+
+#resume-content {
+    height: 300px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*portfolio page*/
+#portfolio-header {
+    display: none;
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 45px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 190px;
+    color: #406f48;
+    z-index: 1;
+}
+
+#portfolio-container {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+#portfolio-content {
+
+}
+
+
+.list-heading {
+    font-family: "Nixie One", Georgia, serif;
+    font-size: 20px;
+    padding-left: 25px;
+    color: #475ca8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    color: black;
+    list-style-type: none;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+}
+
+/* end resume page */
+
+#name {
+    display: none;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 65px;
+    font-weight: 100;
+    width: 250px;
+    left: 50%;
+    margin-left: -127.5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+#white-top {
+    width: 100%;
+    height: 83px;
+}
+
+#tagline {
+    display: none; 
+    margin-top: 5px; /*if it's shown, should be same as #name's margin-bottom*/
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 0.65px;
+}
+
+#tagline-container {
+    margin-top: -60px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-header {
+    font-family: "Nixie One", serif;
+    color: #cdcbd0;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+
+
+
+/*keeps the footer at the bottom of the page*/
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em; 
+}
+
+.push, .footer {
+    height: 4em;
+}
+#contact {
+    display: none;
+    width: 115px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.contact-link {
+    float: left;
+    margin-right: 10px;
+    color: #928d97;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+.contact-link a:hover {
+    color: #6a6471;
+}
+
+
+
+
+#construction {
+	display: none;
+	margin-left: 300px;
+	padding-top: 100px;
+	font-weight: 200;
+	font-size: 25px;
+	
+}
+
+#construction-bold {
+    color: #406f48;
+
+}
